@@ -1,0 +1,70 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    font-family: 'Ubuntu';
+}
+
+body, html {
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+}
+
+.main {
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+/* NAVBAR */
+
+.navbar {
+    color: floralwhite;
+    background-color: transparent;
+    border-bottom-color: orangered;
+}
+
+
+li.nav-item {
+    height: 20px;
+    font-size: 1vw;
+    font-weight: bold;
+}
+
+.navbar-brand {
+    height: 20px;
+    font-size: 1.8vw;
+    font-weight: bold;
+    margin: 0;
+    color: black;
+}
+
+a:hover.navbar-brand {
+    color: sandybrown;
+}
+
+.nav > li > a {
+    padding-bottom: 30px;
+    color: black;
+}
+
+    .nav > li > a:hover {
+        background-color: transparent;
+        color: sandybrown;
+    }
+
+a.dropdown-item {
+
+    color:black;
+
+}
+a:hover.dropdown-item{
+    color: sandybrown;
+}

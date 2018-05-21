@@ -1,0 +1,30 @@
+
+/*TOP BUTTON */
+
+/* specific button styles */
+.toTop {
+    position: fixed;
+    top: 80vh;
+    opacity: .8;
+    z-index: 100;
+}
+/* centering button */
+/* centering button */
+
+.centerButton {
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 10vw;
+}
+
+/* TEXT STYLES */
+
+.title{
+    font-family: 'Quicksand';
+    font-size: 10vh;
+    align-content: center;
+    padding-left: 3vw;
+}
