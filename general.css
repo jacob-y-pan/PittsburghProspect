@@ -29,18 +29,19 @@ body, html {
     color: floralwhite;
     background-color: transparent;
     border-bottom-color: orangered;
+    padding-bottom: 2vh;
+    padding-top: .2vh;
 }
 
 
 li.nav-item {
-    height: 20px;
-    font-size: 1vw;
+    font-size: 1.4vw;
     font-weight: bold;
 }
 
-.navbar-brand {
-    height: 20px;
-    font-size: 1.8vw;
+a.navbar-brand {
+
+    font-size: 2vw;
     font-weight: bold;
     margin: 0;
     color: black;
@@ -51,7 +52,6 @@ a:hover.navbar-brand {
 }
 
 .nav > li > a {
-    padding-bottom: 30px;
     color: black;
 }
 
