@@ -4,11 +4,11 @@
 /* specific button styles */
 .toTop {
     position: fixed;
-    top: 80vh;
+    top: 78vh;
     opacity: .8;
     z-index: 100;
 }
-/* centering button */
+    
 /* centering button */
 
 .centerButton {

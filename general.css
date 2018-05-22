@@ -4,7 +4,7 @@
     margin: 0;
     padding-right: 0px;
     padding-left: 0px;
-    font-family: 'Ubuntu';
+    /*font-family: 'Ubuntu';*/
 }
 
 body, html {
@@ -12,6 +12,7 @@ body, html {
     padding-right: 0;
     padding-left: 0;
     margin: 0;
+    font-family: 'Ubuntu';
 }
 
 .main {
@@ -28,21 +29,20 @@ body, html {
 .navbar {
     color: floralwhite;
     background-color: transparent;
-    border-bottom-color: orangered;
     padding-bottom: 2vh;
     padding-top: .2vh;
+    font-family: Arial;
 }
 
 
 li.nav-item {
-    font-size: 1.4vw;
-    font-weight: bold;
+    font-size: 1.3vw;
+    font-weight: 100;
+    font-family: Open 'Lucida Sans';
 }
 
 a.navbar-brand {
-
     font-size: 2vw;
-    font-weight: bold;
     margin: 0;
     color: black;
 }
@@ -61,10 +61,16 @@ a:hover.navbar-brand {
     }
 
 a.dropdown-item {
-
-    color:black;
-
+    color: black;
 }
-a:hover.dropdown-item{
+
+a:hover.dropdown-item {
     color: sandybrown;
+}
+
+/* TO TOP BUTTON SIZE ADUJSTER*/
+
+img.toTop {
+    height: 17vh;
+    width: 9.8vw;
 }
