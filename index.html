@@ -11,7 +11,6 @@
     <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
 
-    <!-- IMPORTS -->
     <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
 
@@ -23,6 +22,16 @@
     <!-- Animate.css hosted by CDNJS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
+    <!-- Tweenmax plugin -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/1.20.2/TweenMax.min.js"></script>
+
+    <!-- ScrollMagic -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+
+    <!--
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/animation.gsap.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+        -->
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="general.css">
     <link type="text/css" rel="stylesheet" href="index.css" />
@@ -36,51 +45,51 @@
 
 
     <script>
-                                        /*$(document).ready(function () {
-                                            var controller = new ScrollMagic.Controller();
-                                            var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
-                                            var ourScene = new ScrollMagic.Scene({
-                                                triggerElement: ".title",
-                                                triggerHook: 0.6,
-                                                reverse: false
+        /*$(document).ready(function () {
+            var controller = new ScrollMagic.Controller();
+            var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
+            var ourScene = new ScrollMagic.Scene({
+                triggerElement: ".title",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                                            })
-                                                .setTween(tween)
+            })
+                .setTween(tween)
 
-                                                .addTo(controller);
-                                            var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
-                                            var ourScene2 = new ScrollMagic.Scene({
-                                                triggerElement: ".headimg",
-                                                triggerHook: 0.6,
-                                                reverse: false
+                .addTo(controller);
+            var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
+            var ourScene2 = new ScrollMagic.Scene({
+                triggerElement: ".headimg",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                                            })
-                                                .setTween(tween2)
-                                                .addTo(controller);
+            })
+                .setTween(tween2)
+                .addTo(controller);
 
-                                            $("a").on('click', function (event) {
+            $("a").on('click', function (event) {
 
-                                                // Make sure this.hash has a value before overriding default behavior
-                                                if (this.hash !== "" && !this.hash.includes("day")) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "" && !this.hash.includes("day")) {
 
-                                                    // Prevent default anchor click behavior
-                                                    event.preventDefault();
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-                                                    // Store hash
-                                                    var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-                                                    // Using jQuery's animate() method to add smooth page scroll
-                                                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                                                    $('html, body').animate({
-                                                        scrollTop: $(hash).offset().top
-                                                    }, 1300, function () {
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1300, function () {
 
-                                                        // Add hash (#) to URL when done scrolling (default click behavior)
-                                                        window.location.hash = hash;
-                                                    });
-                                                }*/
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }*/
     </script>
 
 </head>
@@ -92,7 +101,7 @@
 
             <!-- Nav bar-->
 
-            <nav class="navbar navbar-light bg-light navbar-fixed-top navbar-default">
+            <nav class="navbar navbar-light bg-light navbar-fixed-top">
                 <div class="container-fluid">
                     <div class="navbar-header">
                         <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
@@ -103,24 +112,22 @@
                         </button>
                         <a class="navbar-brand" href="index.html">HildyCorp Amazon HQ2 Proposal</a>
                     </div>
-                    <div id="navbar" class="navbar-collapse collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item active"><a href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="general.html">General Overview of Pittsburgh</a></li>
-                            <li class="nav-item"><a href="requirements.html">Amazon Requirements</a></li>
-                            <li class="nav-item"><a href="misc.html">Misc</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info of Regions</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="#">North</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">South</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">West</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
+                    <ul class="nav navbar-nav navbar-right">
+                        <li class="nav-item active"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="general.html">General Overview of Pittsburgh</a></li>
+                        <li class="nav-item"><a href="requirements.html">Amazon Requirements</a></li>
+                        <li class="nav-item"><a href="misc.html">Misc</a></li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info of Regions</a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                <a class="dropdown-item" href="#">North</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">South</a>
+                                <div class="dropdown-divider"></div>
+                                <a class="dropdown-item" href="#">West</a>
+                            </div>
+                        </li>
+                    </ul>
                 </div>
             </nav>
             <!-- End of nav bar-->
@@ -148,10 +155,15 @@
                         <a href="workscited.html">Works Cited</a>
                     </footer>
                 </div>
-
             </div>
+            <!-- End scripts -->
+
+            <!-- Tweenlite plugin -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
 
             <!-- Closing div tags with row and animation-->
+
         </div>
     </div>
 </body>
