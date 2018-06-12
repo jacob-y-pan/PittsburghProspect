@@ -23,8 +23,8 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- Custom CSS -->
-    <link type="text/css" rel="stylesheet" href="general.css">
-    <link type="text/css" rel="stylesheet" href="index.css" />
+    <link type="text/css" rel="stylesheet" href="all.css">
+    <link type="text/css" rel="stylesheet" href=".css" />
 
     <!-- Attempt at adding smooth scrolling with Jquery -->
     <script src="smoothscroll.js"></script>
@@ -89,64 +89,33 @@
         <!-- get rid of side padding -->
         <div class="row">
 
-            <!-- Nav bar-->
+            <!--Navigation bar-->
+            <div id="navbars">
 
-            <nav class="navbar navbar-light bg-light navbar-fixed-top navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">HildyCorp Amazon HQ2 Proposal</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item active"><a href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="general.html">General Overview of Pittsburgh</a></li>
-                            <li class="nav-item"><a href="requirements.html">Amazon Requirements</a></li>
-                            <li class="nav-item"><a href="misc.html">Misc</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info of Regions</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="cranberry.html">Cranberry Area (North)</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="moon.html">Moon Township (West)</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">BLANK</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- End of nav bar-->
+            </div>
+            <!--end of Navigation bar-->
+
             <!-- marking top of screen -->
             <div class="container-fluid" id="home">
                 <div style="height:100vh; padding-top:10vh">
                     hi
                 </div>
+            </div>
                 <div style="height:100vh;">
                     by
                 </div>
-                <!-- to top button -->
-                <div class="centerButton">
-                    <a class="toTop" href="#home">
-                        <img src="images/topbutton.png" class="toTop"/>
-                    </a>
-                </div>
-                <!-- End of top button -->
-                <!-- Footer -->
-                <div class="container-fluid">
-                    <footer style="text-align: center; color:grey;">
-                        <hr> &copy 2018 Hildycorp Group P2G2: Grace Welsh, Will Zeisler, Katherine Sabak, Alex Liao, and Jacob Pan. <br>
-                        <a href="workscited.html">Works Cited</a>
-                    </footer>
-                </div>
-
+                
+            <!-- Footer -->
+            <div id="footer">
             </div>
+            <!-- End of Footer -->
+            <!-- End scripts -->
+            <!-- Tweenlite plugin -->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+
+            <!-- Custom JS -->
+            <script src="all.js"></script>
 
             <!-- Closing div tags with row and animation-->
 

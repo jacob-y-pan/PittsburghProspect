@@ -17,14 +17,15 @@
 
     <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!-- Latest compiled JavaScript -->
+
+    <!-- Latest compiled JavaScript Boostrap -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <!-- Animate.css hosted by CDNJS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- Custom CSS -->
-    <link type="text/css" rel="stylesheet" href="general.css">
+    <link type="text/css" rel="stylesheet" href="all.css">
     <link type="text/css" rel="stylesheet" href="index.css" />
 
     <!-- Attempt at adding smooth scrolling with Jquery -->
@@ -34,51 +35,51 @@
     </style>
 
     <script>
-                                                        /*$(document).ready(function () {
-                                                            var controller = new ScrollMagic.Controller();
-                                                            var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
-                                                            var ourScene = new ScrollMagic.Scene({
-                                                                triggerElement: ".title",
-                                                                triggerHook: 0.6,
-                                                                reverse: false
+        /*$(document).ready(function () {
+            var controller = new ScrollMagic.Controller();
+            var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
+            var ourScene = new ScrollMagic.Scene({
+                triggerElement: ".title",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                                                            })
-                                                                .setTween(tween)
+            })
+                .setTween(tween)
 
-                                                                .addTo(controller);
-                                                            var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
-                                                            var ourScene2 = new ScrollMagic.Scene({
-                                                                triggerElement: ".headimg",
-                                                                triggerHook: 0.6,
-                                                                reverse: false
+                .addTo(controller);
+            var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
+            var ourScene2 = new ScrollMagic.Scene({
+                triggerElement: ".headimg",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                                                            })
-                                                                .setTween(tween2)
-                                                                .addTo(controller);
+            })
+                .setTween(tween2)
+                .addTo(controller);
 
-                                                            $("a").on('click', function (event) {
+            $("a").on('click', function (event) {
 
-                                                                // Make sure this.hash has a value before overriding default behavior
-                                                                if (this.hash !== "" && !this.hash.includes("day")) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "" && !this.hash.includes("day")) {
 
-                                                                    // Prevent default anchor click behavior
-                                                                    event.preventDefault();
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-                                                                    // Store hash
-                                                                    var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-                                                                    // Using jQuery's animate() method to add smooth page scroll
-                                                                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                                                                    $('html, body').animate({
-                                                                        scrollTop: $(hash).offset().top
-                                                                    }, 1300, function () {
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1300, function () {
 
-                                                                        // Add hash (#) to URL when done scrolling (default click behavior)
-                                                                        window.location.hash = hash;
-                                                                    });
-                                                                }*/
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }*/
     </script>
 
 </head>
@@ -88,73 +89,50 @@
         <!-- get rid of side padding -->
         <div class="row">
 
-            <!-- Nav bar-->
-
-            <nav class="navbar navbar-light bg-light navbar-fixed-top navbar-default">
-                <div class="container-fluid">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">HildyCorp Amazon HQ2 Proposal</a>
-                    </div>
-                    <div id="navbar" class="navbar-collapse collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="nav-item active"><a href="index.html">Home</a></li>
-                            <li class="nav-item"><a href="general.html">General Overview of Pittsburgh</a></li>
-                            <li class="nav-item"><a href="requirements.html">Amazon Requirements</a></li>
-                            <li class="nav-item"><a href="misc.html">Misc</a></li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Info of Regions</a>
-                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                    <a class="dropdown-item" href="cranberry.html">Cranberry Area (North)</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="moon.html">Moon Township (West)</a>
-                                    <div class="dropdown-divider"></div>
-                                    <a class="dropdown-item" href="#">BLANK</a>
-                                </div>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-            <!-- End of nav bar-->
+            <!--Navigation bar-->
+            <div id="navbars">
+                
+            </div>
+            <!--end of Navigation bar-->
             <!-- marking top of screen -->
             <div class="container-fluid" id="home">
-                <div style="height:100vh; padding-top:10vh;">
-                    <div class="title">HUG FINAL PROJECT: AMAZON HQ</div>
+                <div style="padding-top:10vh; height: 15vh">
+                    <div class="title">Amazon, Meet Pittsburgh.</div>
                     <hr />
-                    hi
                 </div>
-                <div style="height:100vh;">
-                    by
-                </div>
-                <!-- to top button -->
-                <div class="centerButton">
-                    <a class="toTop" href="#home">
-                        <img src="images/topbutton.png" class="toTop" />
-                    </a>
-                </div>
-                <!-- End of top button -->
-                <!-- Footer -->
-                <div class="container-fluid">
-                    <footer style="text-align: center; color:grey;">
-                        <hr> &copy 2018 Hildycorp Group P2G2: Grace Welsh, Will Zeisler, Katherine Sabak, Alex Liao, and Jacob Pan. <br>
-                        <a href="workscited.html">Works Cited</a>
-                    </footer>
-                </div>
+            </div>
+            <div class="container-fluid">
 
             </div>
+            <div style="">
+                <div style="padding-top: 20vh">
+                    <!-- <iframe id="cr-embed-16000US4261000-demographics-age-distribution_by_category" class="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=16000US4261000&chartDataID=demographics-age-distribution_by_category&dataYear=2016&releaseID=ACS_2016_1-year&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+age+category&initialSort=-value&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+                    <script src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/js/embed.chart.make.js"></script> -->
+                </div>
+            </div>
+
+            <!-- to top button -->
+            <div class="centerButton">
+                <a class="toTop" href="#home">
+                    <img src="images/topbutton.png" class="toTop" />
+                </a>
+            </div>
+            <!-- End of top button -->
+
+            <!-- Footer -->
+            <div id="footer">
+            </div>
+            <!-- End of Footer -->
 
             <!-- End scripts -->
             <!-- Tweenlite plugin -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
 
+            <!-- Custom JS -->
+            <script src="all.js"></script>
             <!-- Closing div tags with row and animation-->
+
         </div>
     </div>
 </body>
