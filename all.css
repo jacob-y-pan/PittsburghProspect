@@ -27,7 +27,7 @@ body, html {
 /* NAVBAR */
 
 .navbar {
-    color: floralwhite;
+    background-color: transparent;
     padding-bottom: 2vh;
     padding-top: .2vh;
     font-family: Arial;
@@ -72,7 +72,7 @@ a:hover.dropdown-item {
 /* Collapse bar */
 
 .collapse .nav a {
-    background-color: floralwhite;
+    background-color: whitesmoke;
 }
 
 /* TO TOP BUTTON SIZE ADUJSTER*/
