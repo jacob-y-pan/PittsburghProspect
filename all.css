@@ -44,6 +44,8 @@ a.navbar-brand {
     font-size: 2vw;
     margin: 0;
     color: black;
+    font-weight: 900;
+    text-shadow: -.5px -.5px 0 #ffffff, .5px -.5px 0 #ffffff, -.5px .5px 0 #ffffff, .5px .5px 0 #ffffff;
 }
 
 a:hover.navbar-brand {
@@ -62,7 +64,6 @@ a.dropdown-item {
 }
 
 a:hover.dropdown-item {
-
 }
 
 .dropdown-item {
@@ -88,7 +89,6 @@ img.toTop {
     opacity: .8;
     z-index: 100;
 }
-/* specific button styles */
 
 /* centering button */
 
@@ -99,4 +99,13 @@ img.toTop {
     bottom: 0;
     left: 0;
     width: 10vw;
+}
+
+/* button extra large */
+
+.btn-xl {
+    padding: 10px 20px;
+    font-size: 4vw;
+    border-radius: 30px;
+    color: aliceblue;
 }

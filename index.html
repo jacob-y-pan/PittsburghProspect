@@ -38,51 +38,51 @@
     </style>
 
     <script>
-                /*$(document).ready(function () {
-                    var controller = new ScrollMagic.Controller();
-                    var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
-                    var ourScene = new ScrollMagic.Scene({
-                        triggerElement: ".title",
-                        triggerHook: 0.6,
-                        reverse: false
+        /*$(document).ready(function () {
+            var controller = new ScrollMagic.Controller();
+            var tween = TweenMax.to(".headimg", 3, { opacity: 1, y: 0, delay: .75, ease: Power2.easeOut });
+            var ourScene = new ScrollMagic.Scene({
+                triggerElement: ".title",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                    })
-                        .setTween(tween)
+            })
+                .setTween(tween)
 
-                        .addTo(controller);
-                    var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
-                    var ourScene2 = new ScrollMagic.Scene({
-                        triggerElement: ".headimg",
-                        triggerHook: 0.6,
-                        reverse: false
+                .addTo(controller);
+            var tween2 = TweenMax.to(".top-button", 3, { opacity: 1, y: -35, delay: 1.75, ease: Power2.easeOut });
+            var ourScene2 = new ScrollMagic.Scene({
+                triggerElement: ".headimg",
+                triggerHook: 0.6,
+                reverse: false
 
 
-                    })
-                        .setTween(tween2)
-                        .addTo(controller);
+            })
+                .setTween(tween2)
+                .addTo(controller);
 
-                    $("a").on('click', function (event) {
+            $("a").on('click', function (event) {
 
-                        // Make sure this.hash has a value before overriding default behavior
-                        if (this.hash !== "" && !this.hash.includes("day")) {
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "" && !this.hash.includes("day")) {
 
-                            // Prevent default anchor click behavior
-                            event.preventDefault();
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
 
-                            // Store hash
-                            var hash = this.hash;
+                    // Store hash
+                    var hash = this.hash;
 
-                            // Using jQuery's animate() method to add smooth page scroll
-                            // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-                            $('html, body').animate({
-                                scrollTop: $(hash).offset().top
-                            }, 1300, function () {
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 1300, function () {
 
-                                // Add hash (#) to URL when done scrolling (default click behavior)
-                                window.location.hash = hash;
-                            });
-                        }*/
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                }*/
     </script>
 
 </head>
@@ -97,16 +97,37 @@
             </div>
             <!--end of Navigation bar-->
             <!-- marking top of screen -->
-            <div class="container-fluid" id="home">
-                <div style="padding-top:10vh; height: 15vh">
+            <div class="container-fluid" style="padding-bottom:70vh; z-index: 0">
+                <video class="video" poster="x.jpg" autoplay="true" loop>
+                    <source src="videos/pittsburghstock.mp4" type="video/mp4" />
+                    <source src="videos/pittsburghstock.webm" type="video/webm" />
+                </video>
+            </div>
+            <div class="container-fluid caption" id="home">
+                <div style="padding-top:10vh;">
                     <div class="title">Amazon, Meet Pittsburgh.</div>
                     <!--
                     <iframe width="600" height="200" frameborder=0  seamless scrolling=no src="https://www.civicdashboards.com/static/pediacities_embed.html?chart_type=line&indicator=dependency_ratio&value_type=float&geoid=16000US4261000"></iframe>
                         -->
                 </div>
             </div>
-            <div class="container-fluid content" style="padding-left:20px; padding-right:20px; height: 100vh; padding-top: 12vh">
-                Why Should Amazon come to Pittsburgh? Visit the links below to find out more.
+            <div class="container-fluid content" style="padding-left:30px; padding-right:20px; padding-top: 12vh">
+                <p>Why Should Amazon come to Pittsburgh? Visit the links below to find out more.</p>
+            </div>
+            <!-- LINKS-->
+            <div class="container-fluid" style="text-align:center">
+                <a href="general.html" class="btn btn-xl btn-primary" id="button1">General Characeristics of Pittsburgh</a><br /><br />
+                <a href="requirements.html" class="btn btn-xl btn-primary" id="button2">Requirements for Amazon's HQ2</a><br /><br />
+
+                <!-- SITES -->
+                <div style="text-align: center; font-size: 25vh">
+                    OUR 3 SITES
+                </div>
+                <div class="btn-group" role="group" aria-label="navigation">
+                    <a href="hazelwood.html" class="btn btn-xl btn-primary" id="button3">HAZELWOOD</a>
+                    <a href="moon.html" class="btn btn-xl btn-primary" id="button4">MOON TOWNSHIP</a>
+                    <a href="strip.html" class="btn btn-xl btn-primary" id="button5">STRIP DISTRICT</a>
+                </div>
             </div>
             <div style="">
                 <div style="padding-top: 20vh">
