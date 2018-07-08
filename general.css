@@ -1,0 +1,30 @@
+﻿/* TEXT STYLES */
+
+.title {
+
+    font-family: 'Quicksand';
+    font-size: 10vh;
+    text-align: center;
+    padding-left: 3vw;
+
+}
+
+.title2 {
+
+    font-family: Georgia;
+    font-size: 5vw;
+    text-align: center;
+}
+
+.content {
+    font-size: 2.3vw;
+}
+/* CAPTION SECTION */
+
+.caption {
+
+    background: url(images/pittsburgh1.png);
+    height: auto;
+    padding: 100px 100px;
+
+}

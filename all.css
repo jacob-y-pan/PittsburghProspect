@@ -30,7 +30,7 @@ body, html {
     background-color: transparent;
     padding-bottom: 2vh;
     padding-top: .2vh;
-    font-family: Arial;
+    font-family: Calibri;
 }
 
 
@@ -41,7 +41,7 @@ li.nav-item {
 }
 
 a.navbar-brand {
-    font-size: 2vw;
+    font-size: 2.1vw;
     margin: 0;
     color: black;
     font-weight: 900;
@@ -89,6 +89,7 @@ img.toTop {
     opacity: .8;
     z-index: 100;
 }
+/* SPECIFIC BUTTON STYLES */
 
 /* centering button */
 
@@ -105,7 +106,7 @@ img.toTop {
 
 .btn-xl {
     padding: 10px 20px;
-    font-size: 4vw;
+    font-size: 3.5vw;
     border-radius: 30px;
     color: aliceblue;
 }
