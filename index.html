@@ -97,26 +97,27 @@
             </div>
             <!--end of Navigation bar-->
             <!-- marking top of screen -->
-            <div class="container-fluid" style="padding-bottom:70vh; z-index: 0">
+            <div class="container-fluid" style="">
                 <video class="video" poster="x.jpg" autoplay="true" loop>
                     <source src="videos/pittsburghstock.mp4" type="video/mp4" />
                     <source src="videos/pittsburghstock.webm" type="video/webm" />
                 </video>
             </div>
-            <div class="container-fluid caption" id="home">
-                <div style="padding-top:10vh;">
+            <div class="container-fluid caption" id="home" style="text-align: center">
+                <div>
                     <div class="title">Amazon, Meet Pittsburgh.</div>
                     <!--
                     <iframe width="600" height="200" frameborder=0  seamless scrolling=no src="https://www.civicdashboards.com/static/pediacities_embed.html?chart_type=line&indicator=dependency_ratio&value_type=float&geoid=16000US4261000"></iframe>
                         -->
                 </div>
             </div>
-            <div class="container-fluid title2" style="padding-left:30px; padding-right:20px; padding-top: 12vh">
+            <div class="container-fluid title2" >
                 <p>Why Should Amazon come to Pittsburgh? Visit the links below to find out more.</p>
+                <a href="#below" class="btn btn-xl btn-primary" id="buttons">Explore Below</a>
             </div>
 
             <!-- THE TEAM -->
-            <div class="container-fluid" style="padding-top: 5vh; font-family: Georgia, 'Times New Roman', Times, serif">
+            <div class="container-fluid" id="below" style=" padding-top 5vh; font-family georgia, 'Times New Roman' , times, serif">
                 <hr />
                 <div class="title">Meet the team of Hildycorp</div>
                 <hr />
@@ -155,8 +156,35 @@
             </div>
             <!-- End of Footer -->
             <!-- End scripts -->
+            <!-- Script for button-->
+            <script>
+                $("#buttons").click(function () {
+                    setTimeout(function () {
+                        var elem = document.getElementById("below");
+                        elem.style.animation = 'none';
+                        elem.offsetHeight;
+                        elem.style.animation = null;
+                    }, 100);
+                });
+
+                // when scroll run animation
+                ; (function ($, win) {
+                    $.fn.inViewport = function (cb) {
+                        return this.each(function (i, el) {
+                            function visPx() {
+                                var H = $(this).height(),
+                                    r = el.getBoundingClientRect(), t = r.top, b = r.bottom;
+                                return cb.call(el, Math.max(0, t > 0 ? H - t : (b < H ? b : H)));
+                            } visPx();
+                            $(win).on("resize scroll", visPx);
+                        });
+                    };
+                }(jQuery, window));
+            </script>
+
             <!-- Tweenlite plugin -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
 
             <!-- Custom JS -->

@@ -39,6 +39,7 @@
 .video {
 
     position: absolute;
+    z-index: 0;
     padding:0px;
     margin-top: -50vh;
 
