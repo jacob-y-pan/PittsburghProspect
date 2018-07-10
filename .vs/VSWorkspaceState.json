@@ -1,8 +1,10 @@
 {
   "ExpandedNodes": [
     "",
-    "\\images"
+    "\\images",
+    "\\images\\team",
+    "\\videos"
   ],
-  "SelectedNode": "\\index.css",
+  "SelectedNode": "\\images\\team\\wzeisler.png",
   "PreviewInSolutionExplorer": false
 }
