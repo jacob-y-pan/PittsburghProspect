@@ -31,6 +31,7 @@ body, html {
     padding-bottom: 2vh;
     padding-top: .2vh;
     font-family: Calibri;
+    border-color: #000000;
 }
 
 
@@ -68,11 +69,6 @@ a:hover.dropdown-item {
 
 .dropdown-item {
     color: grey;
-}
-
-/*Override navbar line*/
-.navbar-default {
-    border-color: #000000;
 }
 
 /* Collapse bar */
