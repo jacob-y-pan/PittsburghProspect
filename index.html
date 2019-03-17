@@ -89,8 +89,8 @@
 <body data-spy="scroll" style="background-color:whitesmoke">
     <!-- class for animation -->
     <div class="animated fadeIn">
-        <!-- get rid of side padding -->
-        <div class="row">
+        <!-- get rid of side padding (but override margin-right -->
+        <div class="row" style="margin-right: 0px">
 
             <!--Navigation bar-->
             <div id="navbars">
@@ -99,7 +99,7 @@
         </div>
         
         <!-- Header for background image -->
-        <div class="row">
+        <div class="row" style="margin-right: 0px">
             <!--end of Navigation bar-->
             <!-- marking top of screen -->
             <div class="container-fluid home" id="home">
@@ -126,9 +126,6 @@
             </div>
         </div>
 
-
-
-                
 				
 				<!-- general information -->
 				<div class="container-fluid background-primary" style="text-align:center;" id="info">
@@ -156,7 +153,7 @@
 				<div class="container-fluid text-center bg-pic background-secondary">
 					<div class="content-container ">
 						<h3><b>So what are the potential requirements?</b></h3>
-						<a class="btn btn-success" href="requirements.html">Requirements for a Headquarter</a>
+						<a class="btn btn-success" href="requirements.html">Requirements for a Headquarters</a>
 					</div>
 				</div>
 			   <!-- map (with google maps)-->
@@ -182,114 +179,130 @@
             </div>
 			 <!-- THE TEAM -->
             <div class="container-fluid text-center background-secondary" style=" padding-top 5vh; font-family georgia, 'Times New Roman' , times, serif">
-                
-                    <h1 class="text-center">Meet the team of Hildycorp</h1>
-                
+
+                <h1 class="text-center">Meet the team of Hildycorp</h1>
+
                 <!-- TODO: make it so option to view them with scroll like on NA Codes -->
                 <br />
 
                 <div class="container-fluid">
                     <!-- TODO: Make sure that these people's images might be put back, with permission -->
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        <!-- jguo.png -->
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jguo.png" alt="">
-                        <h3>
-                            Justin Guo
-                            <small>Project Researcher</small>
-                        </h3>
+                    <div class="row">
+                        <div class="col-lg-4 text-center">
+                            <!-- jguo.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jguo.png" alt="">
+                            <h3>
+                                Justin Guo
+                                <small>Project Researcher</small>
+                            </h3>
+                        </div>
+                        <div class="col-lg-4 text-center">
+                            <!-- aliao.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/aliao.png" alt="">
+                            <h3>
+                                Alex Liao
+                                <small>Graphic Designer</small>
+                            </h3>
+                        </div>
+                        <div class="col-4 text-center">
+                            <!-- ksabak.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/ksabak.png" alt="">
+                            <h3>
+                                Katherine Sabak
+                                <small>Editor</small>
+                            </h3>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        <!-- aliao.png -->
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/aliao.png" alt="">
-                        <h3>
-                            Alex Liao
-                            <small>Graphic Designer</small>
-                        </h3>
+                    <div class="row justify-content-around">
+                        <div class="col-4 text-center">
+                            <!-- gwelsh.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/gwelsh.png" alt="">
+                            <h3>
+                                Grace Welsh
+                                <small>Writer</small>
+                            </h3>
+                        </div>
+                        <div class="col-4 text-center">
+                            <!-- wzeisler.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/wzeisler.png" alt="">
+                            <h3>
+                                Will Zeisler
+                                <small>Graphic Designer</small>
+                            </h3>
+                        </div>
                     </div>
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jpan.png" alt="">
-                        <h3>
-                            Jacob Pan
-                            <small>Researcher</small>
-                        </h3>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        <!-- ksabak.png -->
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/ksabak.png" alt="">
-                        <h3>
-                            Katherine Sabak
-                            <small>Editor</small>
-                        </h3>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        <!-- gwelsh.png -->
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/gwelsh.png" alt="">
-                        <h3>
-                            Grace Welsh
-                            <small>Writer</small>
-                        </h3>
-                    </div>
-                    <div class="col-lg-4 col-sm-6 text-center mb-4">
-                        <!-- wzeisler.png -->
-                        <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/wzeisler.png" alt="">
-                        <h3>
-                            Will Zeisler
-                            <small>Job Graphic Designer</small>
-                        </h3>
+                    <div class="row justify-content-center">
+                        <!-- Website creators-->
+                        <div class="col-4 text-center">
+
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="https://hackna.org/2019/images/davidxue.jpg" alt="">
+                            <h3>
+                                David Xue
+                                <small>Website Designer</small>
+                            </h3>
+                        </div>
+                        <div class="col-4 text-center">
+
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jpan.png" alt="">
+                            <h3>
+                                Jacob Pan
+                                <small>Website Designer</small>
+                            </h3>
+                        </div>
                     </div>
                 </div>
-            <div style="">
-                <div style="padding-top: 20vh">
-                    <!-- <iframe id="cr-embed-16000US4261000-demographics-age-distribution_by_category" class="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=16000US4261000&chartDataID=demographics-age-distribution_by_category&dataYear=2016&releaseID=ACS_2016_1-year&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+age+category&initialSort=-value&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
-                    <script src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/js/embed.chart.make.js"></script> -->
+                
+                <div style="">
+                    <div style="padding-top: 20vh">
+                        <!-- <iframe id="cr-embed-16000US4261000-demographics-age-distribution_by_category" class="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=16000US4261000&chartDataID=demographics-age-distribution_by_category&dataYear=2016&releaseID=ACS_2016_1-year&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+age+category&initialSort=-value&statType=percentage" frameborder="0" width="100%" height="300" style="margin: 1em; max-width: 300px;"></iframe>
+            <script src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/js/embed.chart.make.js"></script> -->
+                    </div>
                 </div>
+
+                <!-- to top button -->
+                <!-- top button deleted -->
+                <!-- End of top button -->
+                <!-- Footer -->
+                <div id="footer">
+                </div>
+                <!-- End of Footer -->
+                <!-- End scripts -->
+                <!-- Script for button-->
+                <script>
+                    $("#buttons").click(function () {
+                        setTimeout(function () {
+                            var elem = document.getElementById("below");
+                            elem.style.animation = 'none';
+                            elem.offsetHeight;
+                            elem.style.animation = null;
+                        }, 100);
+                    });
+
+                    // when scroll run animation
+                    ; (function ($, win) {
+                        $.fn.inViewport = function (cb) {
+                            return this.each(function (i, el) {
+                                function visPx() {
+                                    var H = $(this).height(),
+                                        r = el.getBoundingClientRect(), t = r.top, b = r.bottom;
+                                    return cb.call(el, Math.max(0, t > 0 ? H - t : (b < H ? b : H)));
+                                } visPx();
+                                $(win).on("resize scroll", visPx);
+                            });
+                        };
+                    }(jQuery, window));
+                </script>
+
+                <!-- Tweenlite plugin -->
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
+
+                <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
+
+                <!-- Custom JS -->
+                <script src="all.js"></script>
+                <!-- Closing div tags with row and animation-->
+
             </div>
-
-            <!-- to top button -->
-            <!-- top button deleted -->
-            <!-- End of top button -->
-            <!-- Footer -->
-            <div id="footer">
-            </div>
-            <!-- End of Footer -->
-            <!-- End scripts -->
-            <!-- Script for button-->
-            <script>
-                $("#buttons").click(function () {
-                    setTimeout(function () {
-                        var elem = document.getElementById("below");
-                        elem.style.animation = 'none';
-                        elem.offsetHeight;
-                        elem.style.animation = null;
-                    }, 100);
-                });
-
-                // when scroll run animation
-                ; (function ($, win) {
-                    $.fn.inViewport = function (cb) {
-                        return this.each(function (i, el) {
-                            function visPx() {
-                                var H = $(this).height(),
-                                    r = el.getBoundingClientRect(), t = r.top, b = r.bottom;
-                                return cb.call(el, Math.max(0, t > 0 ? H - t : (b < H ? b : H)));
-                            } visPx();
-                            $(win).on("resize scroll", visPx);
-                        });
-                    };
-                }(jQuery, window));
-            </script>
-
-            <!-- Tweenlite plugin -->
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
-
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/plugins/CSSPlugin.min.js"></script>
-
-            <!-- Custom JS -->
-            <script src="all.js"></script>
-            <!-- Closing div tags with row and animation-->
-
-        </div>
     
 </body>
 </html>
