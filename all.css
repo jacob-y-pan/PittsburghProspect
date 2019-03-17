@@ -24,6 +24,22 @@ body, html {
     padding-left: 0px;
 }
 
+.background-primary {
+	background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.background-secondary {
+    background-color: #fcfcfc;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.bg-pic {
+    background-image: url(./images/bg.svg);
+    background-size: cover;
+}
 /* NAVBAR */
 
 .navbar {
@@ -104,11 +120,21 @@ img.toTop {
 }
 
 /* button extra large */
+.btn-success {
+    color: #ffffff;
+    background-color: #4CAF50;
+}
+
+.btn {
+    font-size: 15px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 5px;
+}
 
 .btn-xl {
-    padding: 10px 20px;
-    font-size: 3.5vw;
-    border-radius: 30px;
+    border-radius: 15px;
     color: aliceblue;
 }
 
