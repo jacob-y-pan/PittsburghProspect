@@ -19,19 +19,21 @@
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
+    <!-- Custom JS -->
+    <script src="all.js"></script>
+
     <!-- Animate.css hosted by CDNJS -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
 
     <!-- Custom CSS -->
     <link type="text/css" rel="stylesheet" href="all.css">
-    <link type="text/css" rel="stylesheet" href=".css" />
+    <link type="text/css" rel="stylesheet" href="requirements.css">
 
     <!-- Attempt at adding smooth scrolling with Jquery -->
     <script src="smoothscroll.js"></script>
 
     <style>
     </style>
-
 
 
     <script>
@@ -42,7 +44,6 @@
                         triggerElement: ".title",
                         triggerHook: 0.6,
                         reverse: false
-
 
                     })
                         .setTween(tween)
@@ -89,19 +90,77 @@
         <!-- get rid of side padding -->
         <div class="row">
 
-            <!--Navigation bar-->
+            <!-- Nav bar-->
             <div id="navbars">
-
             </div>
-            <!--end of Navigation bar-->
+            <!-- End of nav bar-->
             <!-- marking top of screen -->
-            <div class="container-fluid" id="home">
-                <div style="height:100vh; padding-top:10vh">
-                    hi
+            <div class="container-fluid caption" id="home" style="z-index:0">
+                <div style="">
+                    <div class="title">
+                        Requirements for HQ2
+                    </div>
                 </div>
             </div>
-            <div style="height:100vh;">
-                by
+
+            <!-- Requirements of Amazon -->
+            <div class="container-fluid">
+                <div class="title2">
+                    There are several key requirements that a site needs in order to be optimal for Amazon's next headquarters.
+                </div>
+
+                <div class="content">
+                    <ol type="1" style="margin:4vw">
+                        <li>
+                            Space
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    In the area, there has to be existing buildings of at least 500,000 square feet, and site space of at max 8 million square feet.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Location
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    The HQ2 has to be located 30 miles from a population center, and 45 minutes to the airport.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Costs
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    The site should have low operating costs and a business friendly environment – competition and growth with other businesses – agglomeration is optimal
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Transportation
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    The site should have public transportation, accessibility to the CBD and the international airport
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Education
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    The site should have a highly educated labor force fit for Amazon.
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Culture
+                            <ul style="margin-left: 2vw">
+                                <li>
+                                    The site should have a diverse, desirable community to live in, area should include many cultures.
+                                </li>
+                            </ul>
+                        </li>
+                    </ol>
+                </div>
             </div>
 
             <!-- to top button -->
@@ -111,10 +170,14 @@
                 </a>
             </div>
             <!-- End of top button -->
-            <!-- Footer -->
-            <div id="footer">
+
+            <div class="container-fluid">
+                <!-- Footer -->
+                <div id="footer">
+                </div>
+                <!-- End of Footer -->
             </div>
-            <!-- End of Footer -->
+
             <!-- End scripts -->
             <!-- Tweenlite plugin -->
             <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/latest/TweenLite.min.js"></script>
@@ -122,7 +185,6 @@
 
             <!-- Custom JS -->
             <script src="all.js"></script>
-
             <!-- Closing div tags with row and animation-->
 
         </div>
