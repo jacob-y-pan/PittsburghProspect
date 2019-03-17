@@ -58,8 +58,8 @@ img.rounded-circle {
 
 .item {
     font-size: 5vw;
-    color: lightgrey;
-    text-shadow: .2vw .2vw 0vw black;
+    color: white;
+	text-shadow: 1px 1px 7px rgb(0, 0, 0);
     font-weight: 800;
     margin:0;
 }

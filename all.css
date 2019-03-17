@@ -111,3 +111,9 @@ img.toTop {
     border-radius: 30px;
     color: aliceblue;
 }
+
+.btn-dark {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
