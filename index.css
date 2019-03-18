@@ -137,7 +137,7 @@ img.rounded-circle:hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #fde1fb), color-stop(100%, #fa88f1));
     background-image: -webkit-linear-gradient(top, #fde1fb, #fa88f1);
     background-image: -o-linear-gradient(top, #fde1fb, #fa88f1);
-    background-image: linear-gradient(#7bc9a2, #109d59);
+    background-image: linear-gradient(#7bc9a2, #109d59a3);
     border-color: #fa88f1 #fa88f1 hsl(305, 93%, 71.5%);
     color: black;
     -webkit-font-smoothing: antialiased;
@@ -153,7 +153,7 @@ img.rounded-circle:hover {
     background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e5fde1), color-stop(100%, #99fa88));
     background-image: -webkit-linear-gradient(top, #e5fde1, #99fa88);
     background-image: -o-linear-gradient(top, #e5fde1, #99fa88);
-    background-image: linear-gradient(#919bd1, #3a4aab);
+    background-image: linear-gradient(#919bd1, #3a4aab4d);
     border-color: #99fa88 #3a4aab hsl(111, 93%, 71.5%);
     color: black;
     -webkit-font-smoothing: antialiased;
