@@ -1,31 +1,4 @@
-/* TEXT STYLES */
 
-.title {
-    font-family: 'Quicksand';
-    font-size: 100px;
-    text-align: center;
-    padding-left: 3vw;
-}
-
-.title2 {
-    font-family: Georgia;
-    font-size: 40px;
-    text-align: center;
-}
-
-.subtitle{
-    font-family: 'Lucida Bright';
-    font-size: 35px;
-    font-weight: 600;
-}
-
-.content {
-    font-size: 20px;
-}
-/* CAPTION SECTION */
-
-.caption {
-    background: url(images/pittsburgh1.png);
-    height: auto;
-    padding: 100px 100px;
+body {
+  padding-top: 56px;
 }
