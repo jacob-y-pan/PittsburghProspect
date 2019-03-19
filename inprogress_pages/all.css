@@ -1,0 +1,146 @@
+/* GENERAL */
+* {
+    padding: 0;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+    /*font-family: 'Ubuntu';*/
+}
+
+body, html {
+    height: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    margin: 0;
+    font-family: 'Ubuntu';
+}
+
+.main {
+    background-size: cover;
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+.background-primary {
+	background-color: #ffffff;
+    padding-top: 70px;
+    padding-bottom: 70px;
+}
+
+.background-secondary {
+    background-color: #fcfcfc;
+    padding-top: 90px;
+    padding-bottom: 90px;
+}
+
+.bg-pic {
+    background-image: url(./images/bg.svg);
+    background-size: cover;
+}
+/* NAVBAR */
+
+.navbar {
+    background-color: whitesmoke;
+    padding-top: .2vh;
+    font-family: Calibri;
+    border-color: transparent;
+    height: 50px;
+}
+
+
+li.nav-item {
+    font-size: 1.3vw;
+    font-weight: 500;
+    font-family: Open 'Lucida Sans';
+}
+
+a.navbar-brand {
+    font-size: 1.8vw;
+    margin: 0;
+    color: #212121 !important;
+    font-weight: 900;
+    text-shadow: -.5px -.5px 0 #ffffff, .5px -.5px 0 #ffffff, -.5px .5px 0 #ffffff, .5px .5px 0 #ffffff;
+}
+
+a:hover.navbar-brand {
+}
+
+.nav > li > a {
+    color: #212121 !important;
+    transition: all .2s ease-in-out;
+}
+
+    .nav > li > a:hover {
+        background-color: lightgray !important;
+    }
+
+a.dropdown-item {
+    color: #212121;
+}
+
+a:hover.dropdown-item {
+}
+
+.dropdown-item {
+    color: grey;
+}
+
+/* Collapse bar */
+
+.collapse .nav a {
+    background-color: transparent;
+}
+
+/* TO TOP BUTTON SIZE ADUJSTER*/
+
+img.toTop {
+    height: 18vh;
+    width: 9.8vw;
+}
+
+.toTop {
+    position: fixed;
+    top: 78vh;
+    opacity: .8;
+    z-index: 100;
+}
+/* SPECIFIC BUTTON STYLES */
+
+/* centering button */
+
+.centerButton {
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 10vw;
+}
+
+/* button extra large */
+.btn-success {
+    color: #ffffff;
+    background-color: #4CAF50;
+}
+
+.btn {
+    font-size: 15px;
+    border: 0px;
+    border-radius: 0px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.btn-xl {
+    border-radius: 15px;
+    color: aliceblue;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+}
