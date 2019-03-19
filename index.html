@@ -1,0 +1,239 @@
+﻿<!DOCTYPE html>
+<html>
+    
+    <head>
+        <title>Prospect Pittsburgh Project</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- Fonts -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:bold&amp;effect=anaglyph"
+        rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
+        <!-- From Adobe TypeKit -->
+        <link rel="stylesheet" href="https://use.typekit.net/mac7fnr.css">
+        <!-- IMPORTS -->
+        <!-- Latest compiled and minified CSS -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <!-- jQuery library -->
+        <!-- Latest compiled JavaScript Boostrap -->
+        <!-- Animate.css hosted by CDNJS -->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/animate.css@3.5.2/animate.min.css">
+        <!-- Custom CSS -->
+        <link type="text/css" rel="stylesheet" href="all.css">
+        <link type="text/css" rel="stylesheet" href="index.css">
+        <!-- Attempt at adding smooth scrolling with Jquery -->
+    </head>
+    
+    <body data-spy="scroll" style="background-color:whitesmoke">
+        <!-- class for animation -->
+        <div class="animated fadeIn">
+            <!-- get rid of side padding (but override margin-right -->
+            <div class="row" style="margin-right: 0px">
+                <!--Navigation bar-->
+                <div id="navbars"></div>
+            </div>
+            <!-- Header for background image -->
+            <div class="row" style="margin-right: 0px">
+                <!--end of Navigation bar-->
+                <!-- marking top of screen -->
+                <div class="container-fluid home" id="home">
+                    <!-- <div class="video-container" style="">
+
+                    <video class="video" oreload="true" poster="x.jpg" autoplay="true" loop>
+
+                        <source src="videos/pittsburghstock.mp4" type="video/mp4" />
+
+                        <source src="videos/pittsburghstock.webm" type="video/webm" />
+
+                    </video>
+
+                </div>
+
+                -->
+                    <div class="container-fluid text-center bg-home" id="home">
+                        <div class="container-fluid text-center bg-home-text">
+                            <div class="item">
+                                	<h1>Welcome to Pittsburgh<h1>
+
+				</h1></h1>
+                            </div>	<a class="btn  btn-dark" href="#below">Continue</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- general information -->
+            <div class="container-fluid background-primary" style="text-align:center;"
+            id="info">
+                <div class="content-container">
+                    	<h1 class="text-center" id="below">General Info</h1>
+                    <div class="row">
+                        <div class="col-md-4">
+                            	<h3><span class="glyphicon glyphicon-paperclip" style="color:#969696">&lt;/&gt;</span>&#xA0;&#xA0;&#xA0;<b>What?</b></h3>
+                            <p>The Prospect Pittsburgh Project is a yadi yada this and that and yes</p>
+                        </div>
+                        <div class="col-md-4">
+                            	<h3><span class="glyphicon glyphicon-question-sign" style="color:#969696">&lt;/&gt;</span>&#xA0;&#xA0;&#xA0;<b>Why?</b></h3>
+                            <p>Because we love pittsburgh and AOC is bad and tech comapnies IS GOOD</p>
+                        </div>
+                        <div class="col-md-4">
+                             <h3><span class="glyphicon glyphicon-map-marker" style="color:#969696"></span>&#xA0;&#xA0;&#xA0;<b>Where?</b></h3>
+                            <p>3 sites and this and that and that.
+                                <br> <a class="link-light" href="#map">Our 3 sites</a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-fluid text-center bg-pic background-secondary">
+                <div class="content-container ">
+                    	<h3><b>So what are the potential requirements?</b></h3>
+	<a class="btn btn-success" href="requirements.html">Requirements for a Headquarters</a>
+                </div>
+            </div>
+            <!-- map (with google maps)-->
+            <div onclick="document.getElementById(&apos;map-iframe&apos;).style.pointerEvents=&apos;auto&apos;;"
+            style="cursor: pointer;">
+                <iframe id="map-iframe" src="https://www.google.com/maps/d/u/0/embed?mid=1mwn_tux-x9MtuUP5bUVHu7rcEt4O9JtC"
+                width="100%" height="600" style="border:none; pointer-events: none;"></iframe>
+            </div>
+            <!-- LINKS-->
+            <div class="container-fluid text-center background-primary" style="text-align:center">
+                <!-- SITES -->
+                 <h1>
+
+                    OUR 3 SITES
+
+                </h1>
+                <div class="btn-group" role="group" aria-label="navigation"> <a href="hazelwood.html" class="btn btn-xl btnc btn-custom3" id="button3">HAZELWOOD</a>
+                    <a
+                    href="moon.html" class="btn btn-xl btnc btn-custom4" id="button4">MOON TOWNSHIP</a> <a href="strip.html" class="btn btn-xl btnc btn-custom5"
+                        id="button5">STRIP DISTRICT</a>
+                </div>
+            </div>
+            <!-- THE TEAM -->
+            <div class="container-fluid text-center background-secondary" style=" padding-top 5vh; font-family georgia, &apos;Times New Roman&apos; , times, serif">
+                 <h1 class="text-center">Meet the team of Hildycorp</h1>
+                <!-- TODO: make it so option to view them with scroll like on NA Codes
+                -->
+                <br>
+                <div class="container-fluid">
+                    <!-- TODO: Make sure that these people's images might be put back, with
+                    permission -->
+                    <div class="row justify-content-center">
+                        <div class="col-4 text-center">
+                            <!-- jguo.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jguo.png"
+                            alt="">
+                             <h3>
+
+                                Justin Guo
+
+                                <small>Project Researcher</small>
+
+                            </h3>
+                        </div>
+                        <div class="col-4 text-center">
+                            <!-- aliao.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/aliao.png"
+                            alt="">
+                             <h3>
+
+                                Alex Liao
+
+                                <small>Graphic Designer</small>
+
+                            </h3>
+                        </div>
+                        <div class="col-4 text-center">
+                            <!-- ksabak.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/ksabak.png"
+                            alt="">
+                             <h3>
+
+                                Katherine Sabak
+
+                                <small>Editor</small>
+
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <div class="col-6 text-center">
+                            <!-- gwelsh.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/gwelsh.png"
+                            alt="">
+                             <h3>
+
+                                Grace Welsh
+
+                                <small>Writer</small>
+
+                            </h3>
+                        </div>
+                        <div class="col-6 text-center">
+                            <!-- wzeisler.png -->
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/wzeisler.png"
+                            alt="">
+                             <h3>
+
+                                Will Zeisler
+
+                                <small>Graphic Designer</small>
+
+                            </h3>
+                        </div>
+                    </div>
+                    <div class="row justify-content-center">
+                        <!-- Website creators-->
+                        <div class="col-6 text-center">
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="https://hackna.org/2019/images/davidxue.jpg"
+                            alt="">
+                             <h3>
+
+                                David Xue
+
+                                <small>Website Designer</small>
+
+                            </h3>
+                        </div>
+                        <div class="col-6 text-center">
+                            <img class="rounded-circle img-fluid d-block mx-auto" src="images/team/jpan.png"
+                            alt="">
+                             <h3>
+
+                                Jacob Pan
+
+                                <small>Website Designer</small>
+
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div style="">
+                    <div style="padding-top: 20vh">
+                        <!-- <iframe id="cr-embed-16000US4261000-demographics-age-distribution_by_category"
+                        class="census-reporter-embed" src="https://s3.amazonaws.com/embed.censusreporter.org/1.0/iframe.html?geoID=16000US4261000&chartDataID=demographics-age-distribution_by_category&dataYear=2016&releaseID=ACS_2016_1-year&chartType=pie&chartHeight=200&chartQualifier=&chartTitle=Population+by+age+category&initialSort=-value&statType=percentage"
+                        frameborder="0" width="100%" height="300" style="margin: 1em; max-width:
+                        300px;"></iframe>
+
+             -->
+                    </div>
+                </div>
+                <!-- to top button -->
+                <!-- top button deleted -->
+                <!-- End of top button -->
+                <!-- Footer -->
+                <div id="footer"></div>
+                <!-- End of Footer -->
+                <!-- End scripts -->
+                <!-- Script for button-->
+                <!-- Tweenlite plugin -->
+                <!-- Custom JS -->
+                <!-- Closing div tags with row and animation-->
+            </div>
+        </div>
+    </body>
+
+</html>
