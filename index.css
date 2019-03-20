@@ -2,8 +2,8 @@
 
 /* TEXT STYLES */
 
-h1 {
-    font-size: 120px;
+.h1title{
+    font-size: 45px;
 }
 
 h1.fadeInDown {
@@ -45,12 +45,14 @@ img.rounded-circle:hover {
     -ms-flex: 0 0 12%;
     flex: 0 0 12%;
     max-width: 12%;
+	max-height: 13%;
 }
 
 .col-6 {
     -ms-flex: 0 0 13%;
     flex: 0 0 13%;
     max-width: 13%;
+	max-height: 13%;
 }
 
 h4{
@@ -142,9 +144,7 @@ i{
 }
 
 .btn-lg {
-    font-size: 30px;
-    width: 190px;
-    height: 70px;
+    font-size: 22px;
 }
 
 .btn-lg.fadeInDown{
