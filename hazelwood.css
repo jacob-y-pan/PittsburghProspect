@@ -1,0 +1,29 @@
+
+body {
+    padding-top: 56px;
+}
+
+.title {
+    font-family: 'Quicksand';
+    font-size: 60px;
+    text-align: center;
+    padding-left: 3vw;
+}
+
+.title2 {
+    font-family: Georgia;
+    font-size: 40px;
+    text-align: center;
+}
+
+.content {
+    font-size: 20px;
+}
+/* CAPTION SECTION */
+
+.caption {
+    background: url(images/hazelwoodbackground.jpg);
+    height: auto;
+    padding: 100px 100px;
+    height: 300px;
+}
