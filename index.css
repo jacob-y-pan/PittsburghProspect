@@ -22,29 +22,36 @@
 
 /* IMAGE STYLES */
 img.rounded-circle {
-    height: 300px;
-    width: 290px;
+    height: 200px;
+    width: 190px;
     padding-top: 0;
     transition: all .2s ease-in-out;
 }
 
 img.rounded-circle:hover {
-    height: 330px;
-    width: 320px;
+    height: 220px;
+    width: 200px;
 }
 
 .col-4 {
-    -ms-flex: 0 0 20%;
-    flex: 0 0 20%;
-    max-width: 20%;
+    -ms-flex: 0 0 12%;
+    flex: 0 0 12%;
+    max-width: 12%;
 }
 
 .col-6 {
-    -ms-flex: 0 0 23%;
-    flex: 0 0 23%;
-    max-width: 23%;
+    -ms-flex: 0 0 13%;
+    flex: 0 0 13%;
+    max-width: 13%;
 }
 
+h4{
+	font-size: 17px;
+}
+
+i{
+	font-size: 14px;
+}
 /* FLEXBOX CONTENT AT BEGINNING */
 
 
