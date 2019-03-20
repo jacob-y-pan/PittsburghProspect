@@ -8,15 +8,12 @@ body {
     font-family: 'Quicksand';
     font-size: 60px;
     text-align: center;
-    color: white;
 }
 
 h3{
     font-weight: 600;
     font-size: 40px;
-    color:white;
-    outline-color: black;
-}
+   }
 .title2 {
     font-family: Georgia;
     font-size: 40px;
@@ -29,7 +26,7 @@ h3{
 /* CAPTION SECTION */
 
 .caption {
-    background: url(images/strip.jpg);
+    background: url(images/strip.png);
     height: auto;
     padding: 100px 100px;
     height: 300px;
