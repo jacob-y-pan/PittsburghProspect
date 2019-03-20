@@ -2,6 +2,14 @@
 
 /* TEXT STYLES */
 
+h1 {
+    font-size: 120px;
+}
+
+h1.fadeInDown {
+    animation-delay: .5s;
+}
+
 .title {
     font-family: 'Quicksand';
     font-size: 10vh;
@@ -105,6 +113,24 @@ img.rounded-circle:hover {
 }
 
 /* custom buttons */
+
+.btn {
+    transition: all .3s ease-in-out;
+}
+
+.btn:hover{
+    color: lightgrey;
+}
+
+.btn-lg {
+    font-size: 30px;
+    width: 190px;
+    height: 70px;
+}
+
+.btn-lg.fadeInDown{
+    animation-delay: 1.5s;
+}
 
 .btnc:hover {
     color: aliceblue;
