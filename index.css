@@ -22,15 +22,27 @@
 
 /* IMAGE STYLES */
 img.rounded-circle {
-    height: 400px;
-    width: 390px;
-    padding-top: 2vh;
+    height: 300px;
+    width: 290px;
+    padding-top: 0;
     transition: all .2s ease-in-out;
 }
 
 img.rounded-circle:hover {
-    height: 440px;
-    width: 430px;
+    height: 330px;
+    width: 320px;
+}
+
+.col-4 {
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: 20%;
+}
+
+.col-6 {
+    -ms-flex: 0 0 23%;
+    flex: 0 0 23%;
+    max-width: 23%;
 }
 
 /* FLEXBOX CONTENT AT BEGINNING */
