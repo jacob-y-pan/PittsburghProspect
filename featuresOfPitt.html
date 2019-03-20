@@ -26,7 +26,7 @@
 <body>
 
   <!-- Navigation -->
-	<div id="navbarssss">
+	<div id="navbars">
 		<!-- Nav bar-->
 <nav class="navbar navbar-light bg-light fixed-top navbar-expand-md"> <a type="button" class="navbar-toggler collapsed" data-toggle="collapse"
     data-target="#navbar">
@@ -65,23 +65,32 @@
 </nav>
 <!-- End of nav bar-->
             </div>
+		<div class="container-fluid caption" id="home" style="z-index:0;">
+                <div style="">
+                    <div class="title"><center>
+                        Pittsburgh's General Characteristics
+						</center>
+                    </div>
+					<h3><center>
+						(And Why It is Great for a Technology Headquarters)
+						</center>
+					</h3>
+                </div>
+            </div>
 
   <!-- Page Content -->
   <div class="container">
 
     <div class="row">
 
-      <!-- Post Content Column -->
+      
       <div class="col-lg-auto">
-
+		
         <!-- Title -->
-        <h1 class="mt-4"><center>Pittsburgh's General Characteristics</center></h1>
+        <!--<h1 class="mt-4"><center>Pittsburgh's General Characteristics</center></h1>-->
 
         
-        <h3><center>
-          (And Why It is Great for a Technology Headquarters)
-		  </center>
-        </h3>
+        <!--<h3><center> (And Why It is Great for a Technology Headquarters)</center></h3>--!>
 
 		<hr></hr>
         <!--Content -->
@@ -113,14 +122,6 @@
 		<b>Companies in Pittsburgh</b>
 		<p>There are multiple companies in Pittsburgh, as listed here. These companies are in Pittsburgh because there is potential for tech companies like them</p>
 		
-		
-
-        <blockquote class="blockquote">
-          <p class="mb-0">tada</p>
-          <footer class="blockquote-footer">David from
-            <cite title="Source Title">XXX</cite>
-          </footer>
-        </blockquote>
 
 
 
@@ -131,8 +132,14 @@
     <!-- /.row -->
 
   </div>
-  <!-- /.container -->
-
+              <!-- to top button -->
+            <div class="centerButton">
+                <a class="toTop" href="#home">
+                    <img src="images/topbutton.png" class="toTop" />
+                </a>
+            </div>
+            <!-- End of top button -->
+	
   <!-- Footer -->
   <div class="container-fluid">
 	<div id="footer">
@@ -141,7 +148,7 @@
 
   <!-- Bootstrap core JavaScript -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <!--<script src="jquery/jquery.min.js"></script>-->
+  <script src="smoothscroll.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.bundle.min.js"></script>
   <script src="all.js"></script>
 </body>

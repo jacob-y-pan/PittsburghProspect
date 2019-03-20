@@ -105,13 +105,14 @@ a:hover.dropdown-item {
 /* TO TOP BUTTON SIZE ADUJSTER*/
 
 img.toTop {
-    height: 18vh;
-    width: 9.8vw;
+    height: 60px;
+    width: 60px;
+	right: 100px;
 }
 
 .toTop {
     position: fixed;
-    top: 78vh;
+    bottom: 50px;
     opacity: .8;
     z-index: 100;
 }
