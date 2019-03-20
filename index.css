@@ -45,14 +45,14 @@ img.rounded-circle:hover {
     -ms-flex: 0 0 12%;
     flex: 0 0 12%;
     max-width: 12%;
-	max-height: 13%;
+	max-height: 12.5%;
 }
 
 .col-6 {
     -ms-flex: 0 0 13%;
     flex: 0 0 13%;
     max-width: 13%;
-	max-height: 13%;
+	max-height: 13.5%;
 }
 
 h4{
