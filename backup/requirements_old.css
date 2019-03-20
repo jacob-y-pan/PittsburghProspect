@@ -1,12 +1,9 @@
-
-body {
-  padding-top: 56px;
-}
+﻿/* TEXT STYLES */
 
 .title {
 
     font-family: 'Quicksand';
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
     padding-left: 3vw;
 
@@ -29,5 +26,5 @@ body {
     background: url(images/pittsburgh1.png);
     height: auto;
     padding: 100px 100px;
-	height: 300px;
+
 }
