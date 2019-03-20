@@ -30,15 +30,15 @@ h1.fadeInDown {
 
 /* IMAGE STYLES */
 img.rounded-circle {
-    height: 200px;
-    width: 193px;
+    height: 75%;
+    width: 75%;
     padding-top: 0;
     transition: all .2s ease-in-out;
 }
 
 img.rounded-circle:hover {
-    height: 220px;
-    width: 210px;
+    height: 80%;
+    width: 80%;
 }
 
 .col-4 {
