@@ -6,7 +6,7 @@ body {
 .title {
 
     font-family: 'Quicksand';
-    font-size: 100px;
+    font-size: 60px;
     text-align: center;
     padding-left: 3vw;
 
@@ -29,5 +29,5 @@ body {
     background: url(images/pittsburgh1.png);
     height: auto;
     padding: 100px 100px;
-
+	height: 300px;
 }
