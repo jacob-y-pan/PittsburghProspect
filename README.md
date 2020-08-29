@@ -1,8 +1,9 @@
-# Hildycorp Pittsburgh Prospect
-Website URL: https://optimusiacobus.github.io/PittsburghProspect/
 <p align="center">
   <img src="https://github.com/OptimusIacobus/PittsburghProspect/raw/master/images/preview.PNG">
 </p>
+
+# Hildycorp Pittsburgh Prospect
+Website URL: https://optimusiacobus.github.io/PittsburghProspect/
 
 The Prospect Pittsburgh Project is an attempt to showcase the characteristics of Pittsburgh 
 and its highlights that make it a good place to headquarter in for tech companies.
